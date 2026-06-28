@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fit';
+    src: url('fonts/Filxgirl.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* Tipos de format()
+    
+    -opentype(otf)
+    -truetype(ttf)
+    -embed-opentype
+    -truetype-aat (Apple advanced typography
+    -svg
+
+    */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    font-family: 'Fit', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}

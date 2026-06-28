@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    background-color: #74e97e52;
+
+}
+
+h1{
+    font-size: 2em;
+    color: #00916E;
+    color: rgb(2, 77, 2);
+}
+
+h2{
+    color: #00916E;
+}
+
+
+#titulo-principal{
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(67, 153, 67);
+}
+
+
+.texto{
+    text-align: justify;
+}

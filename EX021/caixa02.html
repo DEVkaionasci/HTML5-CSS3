@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #D7263D;
+            margin: 0px;
+        }
+
+        header{
+            background-color: #FED766;
+
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: #FED766;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.479);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: #EECF6D;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: #EECF6D;
+
+        }
+
+        nav{
+            background-color: #D7263D;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 84px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+        #assuntos{
+
+            display: flex;
+            gap: 20px;
+            color: #ffff;
+            background-color: #D7263D;
+            padding: 10px;
+
+        }
+
+        #assuntos > p{
+            margin: 0;
+            font-weight: bold;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            background-color: #EECF6D;
+        }
+
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+   <header>
+        <h1>KiaoBurn Games</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+        <p>Esportes</p>
+        <p>Política</p>
+        <p>Tecnologia</p>
+    </section>
+
+    <section id="noticias">
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae tempora, culpa eaque fugiat quis rerum sapiente! Molestias odit enim odio cum rem sed et fugiat ad! Beatae, voluptates laboriosam. Earum.</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+    </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+   </footer>
+
+   <div id="bola"></div>
+    
+</body>
+</html>
